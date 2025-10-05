@@ -31,3 +31,5 @@ def predict():
 
 if __name__ == "__main__":
     app.run(debug=True)
+import os
+print(os.path.exists("model/cnn_model.h5"))
